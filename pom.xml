@@ -45,7 +45,7 @@
 
         <project.build-time>${timestamp}</project.build-time>
 
-        <wildfly.version>26.1.1.Final</wildfly.version>
+        <wildfly.version>35.0.1.Final</wildfly.version>
         <wildfly.build-tools.version>1.2.13.Final</wildfly.build-tools.version>
         <wildfly.core.version>18.1.1.Final</wildfly.core.version>
         <apache.httpcomponents.fuse.version>4.5.2</apache.httpcomponents.fuse.version>
@@ -81,7 +81,7 @@
         <jakarta.persistence.version>2.2.3</jakarta.persistence.version>
         <hibernate-orm.version>5.6.14.Final</hibernate-orm.version>
         <hibernate.c3p0.version>${hibernate-orm.version}</hibernate.c3p0.version>
-        <infinispan.version>14.0.4.Final</infinispan.version>
+        <infinispan.version>14.0.34.Final</infinispan.version>
         <infinispan.protostream.processor.version>4.6.0.Final</infinispan.protostream.processor.version>
         <jackson.version>2.13.4</jackson.version>
         <jackson.databind.version>2.13.4.2</jackson.databind.version>
@@ -197,7 +197,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.76</tomcat8.version>
@@ -265,7 +265,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
